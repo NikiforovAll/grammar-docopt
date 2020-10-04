@@ -14,3 +14,7 @@ Test runtime <https://github.com/tunnelvisionlabs/antlr4ts>
 ```bash
 npm test
 ```
+
+## Known issues
+
+* Bump to ts4 when this is resolved <https://github.com/tunnelvisionlabs/antlr4ts/pull/486>
