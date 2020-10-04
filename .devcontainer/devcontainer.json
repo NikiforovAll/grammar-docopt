@@ -1,0 +1,20 @@
+{
+	"name": "ANTLR-grammar-docopt",
+	// "image": "ghcr.io/nikiforovall/devcontainers/antlr:latest",
+	"build": {
+		"dockerfile": "./Dockerfile"
+	},
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"java.home": "/docker-java-home"
+	},
+	"extensions": [
+		"mike-lischke.vscode-antlr4",
+		"streetsidesoftware.code-spell-checker",
+		"rbbit.typescript-hero",
+		// "maty.vscode-mocha-sidebar",
+		"nwhatt.chai-snippets",
+		"dbaeumer.vscode-eslint",
+		"eg2.vscode-npm-script"
+	]
+}
